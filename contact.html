@@ -1,0 +1,135 @@
+<!--Luban Shah 4374153-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Malcolm X, el-Hajj Malik el-Shabazz, Black empowerment, Muslim minister, human rights activist">
+    <meta name="descripion" content="this site is about Malcolm X">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+   
+    
+    <title>Malcolm X</title>
+</head>
+<body>
+    <header>
+        <h1>Malcolm X</h1>
+
+    </header>
+    <nav>
+        <ul>
+            <li id="home-link"><a href="index.html">Home</a></li>
+            <li id="contact-link"><a href="contact.html">Contact</a></li>
+        </ul>
+        
+    </nav>
+    <main>
+        <h2>Contact</h2>
+        <form name="contact_form" id="contact_form" method="post" action="contact.php">
+            <fieldset>
+                <legend>Personal Infortion</legend>
+                <label for="firstName">Firs tName</label>
+                <input class="form-control" type="text" name="firstName" id="firstName" placeholder="Enter Your First Name" autofocus required><br>
+                <label for="lastName">Last Name</label>
+                <input class="form-control" type="text" name="lastName" id="lastName" placeholder="Enter Your Last Name" required><br>
+                <label for="DOB">Date of Birth</label>
+                <input class="form-control" type="date" id="DOB" name="DOB" required><br>
+                <label for="colour">Favourite Colour</label>
+                <input class="form-control" type="color" id="colour" name="colour"><br>
+                <label for="email">Email</label>
+                <input class="form-control" type="email" id="email" name="email"><br>
+                <label for="phone">Phone</label>
+                <input class="form-control" type="tel" id="phone" name="phone"><br> 
+            </fieldset>
+           
+
+            <div>
+                
+                <label for="method">Preferred Method of Contact</label>
+                <select name="method" id="method">
+                    <option value="" selected>Select Method</option>
+                    <option value="Email">Email</option>
+                    <option value="Phone Number">Phone Number</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="10" cols="50"></textarea>
+            </div>
+            
+            <div>
+                <label for="robot">I am not a Robot</label>
+                <input type="checkbox" name="robot" id="robot" value="" >    
+            </div>
+           
+            <div>
+                <label for="submit"></label>
+                <input type="submit" id="submit" name="submit" value="submit">
+            </div>
+           
+            
+
+        </form>
+
+        
+       
+    </main>
+    <aside>
+        <h3>FAQs</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Answer</th>
+                    
+                </tr>
+              
+            </thead>
+            <tbody>
+                <tr>
+                    <td>When was he born?</td>
+                    <td>May 19, 1925</td>
+                </tr>
+                <tr>
+                    <td>What was Malcolm X's surname at birth?</td>
+                    <td>Little</td>
+                </tr>
+                <tr>
+                    <td>Who was Malcolm X best friends?</td>
+                    <td> "Shorty" Jarvis</td>
+                </tr>
+                <tr>
+                    <td>When did  become muslim?</td>
+                    <td>1963</td>
+                </tr>
+                <tr>
+                    <td>What is Malcolm's religion?</td>
+                    <td>He converted to Islam, and abandoned his belief in violence and separation.</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+
+        <h3>Resources</h3>
+        <ul id="links">
+            <li><a class="resources-link" href="https://en.wikipedia.org/wiki/Malcolm_X">Wikipedia</a></li>
+            <li> <a class="resources-link" href="https://www.britannica.com/biography/Malcolm-X">Britannica</a></li>
+            <li><a class="resources-link" href="https://www.youtube.com/watch?v=qNfAFfu6VD0" target="_blank">YouTube</a></li>
+            <li><a class="resources-link" href="#bio">Biography</a></li>
+            
+        </ul>
+
+        
+       
+    </aside>
+    
+    
+    <footer>
+        <p>&copy; Lubna Shah 2024</p>
+    </footer>
+    
+</body>
+</html>

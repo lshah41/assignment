@@ -69,6 +69,7 @@ header, footer{
     text-align: center;
     border: .25rem solid #181614;
     background-image: linear-gradient(to left, #e4d1bb, #e9dc94 50%, #eee 75%, #eee 82%);
+    margin: .25rem;
 }
 
 
@@ -89,9 +90,12 @@ header, footer{
     border: .25rem solid rgb(19, 13, 207);
     border-radius: 1rem;
     color: blue;
+    
 }
+
 #bio{
     text-align: left;
+    
 }
 #quote{
     padding: 20%;
@@ -105,6 +109,193 @@ header, footer{
     font-style:  rgb(26, 28, 27);
 
 }
+nav{
+    background-color: #e9dc94;
+    padding: .30rem;
+    margin: .25rem;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0.25rem;
+    margin: 0.25rem;
+
+}
+
+nav ul li a{
+    background-color: white;
+    border: 0.1rem solid rgb(242, 232, 233);
+    display: block;
+    text-decoration: none;
+    color: rgb(12, 11, 11);
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+    
+    
+ 
+
+
+}
+nav ul li a:hover{
+    background-color: rgb(21, 20, 20);
+    border: 0.1rem solid white;
+    color: white;
+
+}
+#home-link{
+    float: left;
+    width: 50%;
+
+}
+#contact-link{
+    float: right;
+    width: 50%;
+
+}
+main{
+    clear: both;
+    margin: .25rem;
+    padding: .25rem;
+    float: left;
+    width: 65%;
+}
+aside{
+    margin: .25rem;
+    padding: .25rem;
+    float: right;
+    width: 25%;
+    font-variant: small-caps;
+    color: #181614;
+    align-items: center;
+}
+footer{
+    clear: both;
+}
+#bio{
+    float: left;
+    width: 44%;
+}
+#relative-path-image{
+    float: right;
+    width: 30%;
+}
+.main-section{
+    clear: both;
+}
+table{
+    border-collapse: collapse;
+    border: .10rem solid black;
+    font-size: small;
+    text-align: center;
+    color: #268;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+
+}
+tr{
+    border: .10rem solid black;
+    
+}
+tr, th, td{
+    padding: .10rem;
+    border: .10rem sold black;
+}
+thead th{
+    border: .10rem solid black;
+}
+tbody td{
+    border: .10rem solid black;
+}
 
 
 
+h3{
+    font-variant: small-caps;
+    color: #181614;
+    text-align: center;
+}
+
+#links{
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 1rem;
+    padding: .20%;
+    margin: .20%;
+    
+
+
+}
+
+.resources-link{
+    display: block;
+    background-color: rgb(233, 223, 217);
+    
+    color: rgb(2, 1, 38);
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    text-align: center;      
+}
+.resources-link:hover{
+    background-color: white;
+    color: rgb(229, 19, 19);
+
+}
+
+.form-control, textarea, select{
+    width: 100%;
+    height: ;
+    padding: .10%;
+    margin: .10%;
+    text-align: left;
+}
+label{
+    color: rgb(9, 59, 83);
+    font-variant: normal;
+    font-weight: bold;
+    text-align: left;
+}
+
+#submit{
+    width: 100%;
+    height: 100%;
+    padding: .10%;
+    margin: .10%;
+}
+
+@media (max-width : 900px){
+    html{
+        font-size : 15px;
+    }
+    #relative-path-image{
+        float: none;
+        width: 80%;
+
+
+    }
+    #bio{
+        float: none;
+        width: 90%;
+    }
+
+}
+
+@media (max-width : 600px){
+    html{
+        font-size: 10px;
+    }
+    #home-link, #contact-link,  main{
+        float: none;
+        width: 100%;
+
+    }
+  
+    aside{
+        float: none;
+        width: 100%;
+        align-items: center;
+    }
+
+}
